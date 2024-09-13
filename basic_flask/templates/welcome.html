@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+<!--<h1>Welcome to my Flask App</h1-->
+<!--using JINJA templating to display username of the user that is logged in -->
+    <h2>Welcome {{ user }}, you are {{ age }} years old. </h2>
+    <a href="/calculator">Use Calculator</a><br>
+    <a href="/logout">Logout</a>
+    <a href="/aiportal">Use AI</a>
+
+
+{% endblock %}
+
+
+<!-- is how to do a comment-->
